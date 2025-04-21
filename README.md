@@ -90,7 +90,7 @@ Este repositório apresenta uma versão estendida do aplicativo **GeoQuiz**, com
 ## 🖼️ Demonstrações Visuais
 
 ### 📷 Capturas de Tela
-<img src="Imagens - APP/Print1.jpeg" width="250px"/> <img src="Imagens - APP/Print2.jpeg" width="250px"/> <img src="Imagens - APP/Print3.jpeg" width="250px"/>
+<img src="Img-representacao/Print1.jpeg" width="250px"/> <img src="Img-representacao/Print2.jpeg" width="250px"/> <img src="Img-representacao/Print3.jpeg" width="250px"/>
 
 ### 🎥 Vídeo de Demonstração
 [![Assista no YouTube](https://img.shields.io/badge/Assista%20ao%20vídeo-YouTube-red?logo=youtube)](https://youtu.be/j4-MXtRYFH8)
