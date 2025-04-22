@@ -32,6 +32,7 @@ Este documento descreve as modificações feitas no projeto **GeoQuiz** original
 **Kleberson Crystyan de Lima**  
 **Vinicius Fernandes Betti**  
 **Vitor Hugo Granato Moreira do Prado**
+** Gabriel Henrique Custódio**
 
 ---
 
