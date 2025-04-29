@@ -17,13 +17,6 @@ import android.widget.Toast;
 
 import java.util.UUID;
 
-/*
-  Modelo de projeto para a Atividade 1.
-  Será preciso adicionar o cadastro das respostas do usuário ao Quiz, conforme
-  definido no Canvas.
-
-  GitHub: https://github.com/udofritzke/GeoQuiz
- */
 
 public class MainActivity extends AppCompatActivity {
 
@@ -139,29 +132,6 @@ public class MainActivity extends AppCompatActivity {
                 } else {
                     mTextViewQuestoesArmazenadas.setText("");
                 }
-
-               /*Cursor cursor = mQuestoesDb.queryQuestao(null, null);
-                if (cursor != null) {
-                    if (cursor.getCount() == 0) {
-                        mTextViewQuestoesArmazenadas.setText("Nada a apresentar");
-                        Log.i("MSGS", "Nenhum resultado");
-                    }
-                    //Log.i("MSGS", Integer.toString(cursor.getCount()));
-                    //Log.i("MSGS", "cursor não nulo!");
-                    try {
-                        cursor.moveToFirst();
-                        while (!cursor.isAfterLast()) {
-                            String texto = cursor.getString(cursor.getColumnIndex(QuestoesDbSchema.QuestoesTbl.Cols.TEXTO_QUESTAO));
-                            Log.i("MSGS", texto);
-
-                            mTextViewQuestoesArmazenadas.append(texto + "\n");
-                            cursor.moveToNext();
-                        }
-                    } finally {
-                        cursor.close();
-                    }
-                } else
-                    Log.i("MSGS", "cursor nulo!");*/
 
                 Cursor cursor = mRespostaDb.queryResposta(null, null);
 

@@ -35,19 +35,3 @@ public class Resposta {
     }
 }
 
-/*
-
- @Override
-            public void onClick(View view) {
-
-                  Acesso ao SQLite
-
-                if (mQuestoesDb == null) {
-                mQuestoesDb = new QuestaoDB(getBaseContext());
-        }
-i          nt indice = 0;
-                mQuestoesDb.addQuestao(mBancoDeQuestoes[indice++]);
-                mQuestoesDb.addQuestao(mBancoDeQuestoes[indice++]);
-            }
-
- */
